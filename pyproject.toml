@@ -2,7 +2,7 @@
 name = "Fastapi-Boilerplate"
 version = "0.1.0"
 description = "FastAPI Boilerplate"
-authors = ["Abbas <me@abbasmj.com> & awlanur<awal.nurahmat@gmail.com>"]
+authors = ["Abbas <me@abbasmj.com> & awalnur<awal.nurahmat@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
