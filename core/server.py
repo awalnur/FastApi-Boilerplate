@@ -71,8 +71,8 @@ def init_cache() -> None:
 def create_app() -> FastAPI:
     app_ = FastAPI(
         title="FastAPI Boilerplate",
-        description="FastAPI Boilerplate by @iam-abbas",
-        version="1.0.0",
+        description="FastAPI Boilerplate",
+        version="1.0.1",
         docs_url=None if config.ENVIRONMENT == "production" else "/docs",
         redoc_url=None if config.ENVIRONMENT == "production" else "/redoc",
         dependencies=[Depends(Logging)],
